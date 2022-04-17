@@ -1,0 +1,376 @@
+/* ここから下に記載していく */
+@charset "UTF-8";
+html{
+    font-size: 62.5%; /* 16px*62.5%=10px*/
+}
+
+/* ページ全体 */
+body{
+   color: #222222;
+   font-size: 1.6rem;
+   font-family: "Open Sans", "ヒラギノ角ゴ ProN W3";
+   width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* header */
+.header_inner{
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list{
+    display: flex;
+}
+.nav_item{
+    font-size: 21px;
+    margin: 50px 25px;
+}
+
+/* header タイトル */
+.header_title{
+    position: relative;
+
+}
+.title{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 3.6rem;
+    width: 100%;
+    text-align: center;
+}
+.subtitle{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    color: white;
+    font-size: 2.4rem;
+    width: 100%;
+    text-align: center;
+}
+
+/* about */
+.about{
+    padding: 60px 0 0;
+}
+.about-wrapper{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.about_title{
+    margin: 0 0 30px;
+    color: #ffd61a;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.about1{
+    margin: 0 0 60px;
+    font-size: 1.8rem;
+}
+.about2{
+    margin: 0 0 40px;
+}
+.about3{
+    margin: 0 0 40px;
+    line-height: 2;
+}
+.about4{
+    margin: 0 0 40px;
+}
+.about5{
+    margin: 0 0 80px;
+    line-height: 2;
+}
+/* 写真ゾーン */
+.images{
+    max-width: 1200px;
+    display: flex;
+    width: 25%;
+}
+
+/* course */
+.course{
+    padding: 60px 0 0;
+}
+.course-wrapper{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.course_title{
+    margin: 0 0 30px;
+    color: #222222;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.course1{
+    line-height: 2;
+    margin: 0 0 60px;
+}
+/* 草原 */
+.sogen_main{
+    display: flex;
+}
+
+.sogen_content{
+    width: 600px;
+    background-color: #fafafa;
+}
+.sogen_title{
+    margin: 120px 0 40px 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.sogen_word{
+    margin: 0 0 0 50px;
+    line-height: 1.75;
+}
+/* 先生と黒板 */
+.sensei_main{
+    display: flex;
+}
+.sensei_eyecatch{
+    width: 600px;
+}
+.sensei_content{
+    width: 600px;
+    background-color: #fafafa;
+}
+.sensei_title{
+    margin: 120px 50px 40px 120px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.sensei_word{
+    margin: 0 50px 0 120px;
+    line-height: 1.75;
+}
+/* バイキング画像 */
+.hito_main{
+    display: flex;
+}
+
+.hito_content{
+    width: 600px;
+    background-color: #fafafa;
+}
+.hito_title{
+    margin: 120px 0 40px 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.hito_word{
+    margin: 0 0 0 50px;
+    line-height: 1.75;
+}
+
+/* news */
+.news{
+    padding: 60px 0;
+}
+.news-wrapper{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.news_main{
+    max-width: 1200px;
+    margin: auto;
+}
+.news_title{
+    margin: 0 0 30px;
+    color: #ffd61a;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.news1{
+    margin: 0 0 60px;
+    font-size: 18px;
+}
+.news_eyecatch{
+    margin: 0 0 30px;
+}
+.news_date{
+    margin: 0 0 24px;
+}
+.news_list{
+    display: flex;
+}
+.news_item{
+    width: 300px;
+    margin: auto;
+}
+.news_item:hover{
+    background-color: rgb(173, 173, 167);
+}
+.news_word{
+    line-height: 1.5;
+    font-size: 1.4rem;
+}
+
+
+.btn{
+    display: block;
+    width: 300px;
+    margin: 60px auto 0 auto;
+    padding: 21px 0;
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.btn:hover{
+    background-color: #ff9c1a;
+}
+
+/* access */
+.access{
+    padding: 60px 0 60px 0;
+    background-color: #fafafa;
+}
+.access-wrapper{
+    width: 1200px;
+    margin: auto;
+}
+.access_title{
+    margin: 0 0 30px;
+    color: #222222;
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-align: center;
+}
+.access1{
+    margin: 0 0 60px;
+    font-size: 18px;
+    text-align: center;
+}
+.access2{
+    line-height: 30px;
+    text-align: center;
+    padding:60px 0 0 0;
+}
+.googlemap {
+    position: relative; /* 子要素の基準とする */
+    padding-bottom: 75%; /* 表示するパディング領域の縦横比（4：3） */
+    height: 0;
+    overflow: hidden;
+  }
+  .googlemap iframe {
+    position: absolute; /* 親要素のパディング領域に配置するために絶対配置を指定 */
+    top: 0; /* 垂直方向トップに配置 */  
+    left: 0; /*  水平方向左に配置 */
+    width: 100%; /* 親コンテナの幅いっぱいに表示 */
+    height: 100%; /* 親コンテナの高さいっぱいに表示 */
+  }
+
+/* contact */
+.contact{
+    padding: 60px 0 140px;
+}
+.contact-wrapper{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.contact_title{
+    margin: 0 0 30px;
+    color: #222222;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.contact1{
+    margin: 0 0 60px;
+    font-size: 18px;
+}
+.contact2{
+    margin: 0 0 30px;
+}
+.contact3{
+    margin: 0 0 70px;
+}
+.btn2{
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 21px 0;
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+}
+.btn2:hover{
+    background-color: #ff9c1a;
+}
+
+/* form */
+.form_wrapper{
+    width: 640px;
+    margin: auto;
+}
+.form_inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 30px;
+}
+.form_title{
+    width: 160px;
+    margin: 10px 64px 10px 16px;
+    padding: 8px 0 8px 0;
+}
+.form_item{
+    width: 400px;
+}
+.form_parts{
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 100%;
+    padding: 8px;
+    border:solid 1px #bfbfbf;
+    font-size: 1.6rem;
+}
+.form_radio{
+    padding: 12px 0;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    vertical-align: -8px;
+}
+
+input[type*="radio"]{
+   
+    margin: 0 12px 0 0;
+    height: 16px;
+    line-height: 2.4rem;
+    width: 16px;
+    vertical-align: -2px;
+    border-radius: 50%;
+}
+input[type*="radio"]:checked{
+    background-color: #a0a0a0;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    padding: 30px 0;
+    background-color: #707070;
+}
+.copyrights{
+    color: #fff;
+}
